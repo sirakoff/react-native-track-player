@@ -13,4 +13,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/react-native-kit/react-native-track-player.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m,swift}"
   s.dependency "React"
+  s.dependency "GCDWebServer", "~> 3.5"
+  s.dependency "PINCache", ">= 3.0.1-beta.3"
 end
